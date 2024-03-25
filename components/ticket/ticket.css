@@ -1,0 +1,98 @@
+body {
+
+    --background-color: white;
+    --cardbackground-color: white;
+    --ticketbackgroudn-color: white;
+    --text-color: black;
+    --transition-delay: 1s;
+}
+
+body.dark {
+
+    --background-color: #292B32;
+    --cardbackground-color: #3B3E47;
+    --ticketbackgroudn-color: #1A232A;
+    --text-color: white;
+}
+
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 1%;
+    background-color: var(--cardbackground-color)
+}
+
+.ticket-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 270px;
+    margin-top: 5%;
+}
+
+.team-name {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-details {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.sport-name {
+    text-align: center;
+}
+
+.ticket-events {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: rgba(0, 0, 0, 0.8);
+    color: var(--text-color);
+}
+
+.ticket-events button {
+
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket {
+    display: flex;
+    flex-direction: row;
+
+}

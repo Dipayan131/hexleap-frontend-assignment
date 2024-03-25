@@ -1,0 +1,168 @@
+
+.main {
+
+    --background-color: white;
+    --cardbackground-color: white;
+    --ticketbackgroudn-color: white;
+    --text-color: black;
+    --buttonborder-color: #333;
+    --buttontext-color: black;
+    --text-color: black;
+    --transition-delay: 1s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: '1rem';
+    width: 100%;
+    padding: 3%;
+    background-color: var(--background-color);
+    transition: var(--transition-delay);
+}
+
+.dark{
+    --background-color: #292B32;
+    --cardbackground-color: #3B3E47;
+    --ticketbackgroudn-color: #1A232A;
+    --text-color: white;
+    --buttonborder-color: white;
+    --buttontext-color: white;
+    --text-color: white;
+    --transition-delay: 1s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: '1rem';
+    width: 100%;
+    padding: 3%;
+    background-color: var(--background-color);
+    transition: var(--transition-delay);
+    --transition-delay: 1s;
+
+}
+
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main1-top{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    width: 96.5%;
+    height: 50px;
+}
+
+.main1-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card1-button {
+
+    background-color: #2C9CF0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+      
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--ticketbackgroudn-color);
+}
+
+.main2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2-content h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    width: 60%;
+}
+
+.main2-content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+.mode {
+    padding: 8px 16px;
+    border: 2px solid; /* Dark gray border */
+    border-color: var(--buttonborder-color);
+    border-radius: 4px;
+    background-color: transparent; /* Transparent background */
+    color: var(--buttontext-color); /* Dark gray text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+  }
+  
+  .mode:hover {
+    background-color: #333; /* Dark gray background on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  .mode:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
+  .ticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
